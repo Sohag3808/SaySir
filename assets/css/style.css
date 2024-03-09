@@ -1,0 +1,541 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --theme-color: #088FE9;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe !important;
+    outline: 0;
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+}
+
+.nav-item.active .nav-link {
+    color: var(--theme-color) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: #55efc4 !important;
+}
+
+.navbar {
+    background: #fff !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #063991;
+    font-family: "Nunito", sans-serif;
+    margin-top: 3px;
+}
+
+.shadow {
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%) !important;
+}
+
+.navbarColor {
+    background: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+    transition: 0.5s;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: #063991;
+}
+
+.navbarpadding {
+    padding: 5px 0;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    white-space: nowrap;
+    font-size: 16px;
+    padding: 8px 15px !important;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link a {
+    margin-top: 5px !important;
+}
+
+.dropdown-navlink {
+    border: none;
+
+}
+
+.navbar-nav a:hover {
+    color: var(--theme-color) !important;
+}
+
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: #4154f1;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #000 !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    white-space: nowrap;
+    font-size: 14.5px;
+    transition: 0.3s;
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    font-weight: 600;
+}
+
+
+.last-logo i {
+    color: var(--theme-color);
+    font-size: 16px;
+}
+
+/* --------Hero-section------- */
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-section {
+    width: 100%;
+    background: url(../image/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero-section .heroContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.hero-section .hero-text h1 {
+    margin-bottom: 25px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 50px;
+    color: var(--theme-color);
+    font-family: "Poppins", sans-serif;
+
+}
+
+.hero-section .hero-text p {
+    color: #515f7d;
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.hero-section .last-button .outLink{
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 25px 10px 25px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 15px;
+    color: #fff;
+    background: var(--theme-color);
+    border: none;
+}
+
+.hero-section .last-button .outLink:hover {
+    background: #1a99dd !important;
+    color: #fff;
+}
+
+
+/* <!-------App-Features-Section------> */
+.our-project-content {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.section-text h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    color: var(--theme-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section-text p{
+    color: #47536e;
+    font-size: 16px;
+    text-align: center;
+}
+.our-project-content .card{
+    border: 1px solid #a6e0ff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.peraText{
+    color: #47536e;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+.our-project-content .card-title{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0;
+    text-align: center;
+    color: var(--theme-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.our-project-content .projectLogo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid var(--theme-color);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.our-project-content .icon-content-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: var(--theme-color);
+}
+
+.our-project-content .icon-content-text p {
+    font-size: 15px;
+    color: #47536e;
+}
+
+/* why-our-product-best */
+.why-best-items .card{
+    border: 1px solid #088FE9;
+    padding: 20px;
+    border-radius: 10px;
+    background: #4cb0f3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.cardHedline{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.why-best-items{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* <!------Contact-Section------> */
+.contact-section .contact-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    color: var(--theme-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-section .address-part {
+    color: #444444;
+    padding: 30px;
+}
+
+.contact-section .address-part i {
+    font-size: 35px;
+    line-height: 0;
+    color: var(--theme-color);
+}
+
+.contact-section .address-part h3 {
+    font-size: 20px;
+    color: var(--theme-color);
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+.contact-section .address-part li {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #47536e;
+}
+
+.contact-section .address-part a {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    color: #47536e;
+    margin-bottom: 0;
+}
+
+.contact-section .messagebox-part {
+    color: #444444;
+    background: #fafbff;
+    padding: 30px;
+}
+
+.contact-section .form-disigin {
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.contact-section .send-button button {
+    background: var(--theme-color);
+    display: inline-block;
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: #fff !important;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.3s;
+    border: none;
+}
+
+.contact-section .send-button button:hover {
+    background: #1a99dd;
+}
+
+
+.owl-item.active {
+    transform: scale(1.1);
+}
+
+/*========Footer-Section=======-*/
+.footer-section {
+    margin-top: 50px;
+}
+
+.footer-section .footer-logo img {
+    width: 50px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-section .footer-icon .apple-button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 25px 10px 25px;
+    margin-top: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    border: none;
+    background: #707070;
+}
+
+.footer-section .footer-icon .apple-button:hover {
+    background: #232323;
+    color: #fff;
+}
+
+.footer-section .footer-icon .googleplay-button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 25px 10px 25px;
+    margin-top: 10px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #428061;
+    border: none;
+}
+
+.footer-section .footer-icon .googleplay-button:hover {
+    background: #11492a;
+    color: #fff;
+}
+
+.footer-section .footer-section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--theme-color);
+    padding-bottom: 12px;
+}
+
+.footer-section .footer-fast-text {
+    font-size: 14px;
+    color: #47536e;
+    margin: 20px 0;
+}
+
+.footer-section .footer-fast-text a {
+    font-size: 14px;
+    color: #47536e;
+}
+
+.footer-section .footer-link-text a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #47536e;
+    color: #000;
+}
+
+.footer-section .footer-link-text .item {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    gap: 4px;
+    align-items: center;
+}
+
+.footer-section .footer-link-text .item .icon {
+    font-size: 14px !important;
+    color: var(--theme-color);
+}
+
+.footer-section .address-tex p {
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.footer-section .address-tex a {
+    font-size: 14px;
+    color: #47536e;
+
+}
+
+.footer-section .text-heighlite {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--theme-color);
+}
+
+.footer-section .socal-link {
+    margin-top: 10px;
+}
+
+.footer-section .socal-link i {
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    background: var(--theme-color);
+    border: 1px solid var(--theme-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.footer-section .socal-link i:hover {
+    background: #11492a;
+    color: #fff;
+}
+
+.footer-section .socal-link a {
+    margin: 10px 2px;
+}
+
+/*======Footer-End-Section=======*/
+.footer-end-section {
+    background-color: #fafbff;
+}
+
+.footer-end-section .copyright {
+    font-family: "Raleway", sans-serif;
+    padding-top: 30px;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer-end-section .credits {
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--theme-color);
+    text-decoration: none;
+}
+
+.scroller-top {
+    width: 36px;
+    height: 34px;
+    border-radius: 2px;
+    cursor: pointer;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background-color: var(--theme-color) !important;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.scroller-top i {
+    font-size: 16px;
+    animation: arrow 1.8s linear infinite;
+}
+
+@keyframes arrow {
+    0% {
+        margin-top: 8px;
+    }
+
+    50% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 8px;
+    }
+}
+
+/*======Footer-End-Section-End=======*/
+/* Complete This Website */
